@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="330ef7f9-4caf-414d-97d2-f533e9f110f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/web/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="222iPV3Fn6UjfbKaCdpe7qv72aM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="705722de-423e-4273-8452-d796d8f0610c" name="Default Changelist" comment="" />
+      <created>1639042058371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639042058371</updated>
+      <workItem from="1639042060470" duration="286000" />
+      <workItem from="1639042361711" duration="1748000" />
+    </task>
+    <task id="LOCAL-00001" summary="222">
+      <created>1639042209883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639042209883</updated>
+    </task>
+    <task id="LOCAL-00002" summary="222">
+      <created>1639043066739</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639043066739</updated>
+    </task>
+    <task id="LOCAL-00003" summary="222">
+      <created>1639043100647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639043100647</updated>
+    </task>
+    <task id="LOCAL-00004" summary="222tttt">
+      <created>1639043391329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639043391329</updated>
+    </task>
+    <task id="LOCAL-00005" summary="baga">
+      <created>1639043684866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639043684866</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test-wyx">
+      <created>1639043859682</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639043859682</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="222" />
+    <MESSAGE value="222tttt" />
+    <MESSAGE value="baga" />
+    <MESSAGE value="test-wyx" />
+    <option name="LAST_COMMIT_MESSAGE" value="test-wyx" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1639043920505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1639043920505" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1639043661149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1639043661149" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1639044084807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1639044084807" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1639042363633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1639042363633" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1639046825091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1639046825091" />
+    <state x="663" y="311" key="git4idea.merge.GitPullDialog" timestamp="1639042585659">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1639042585659" />
+  </component>
+</project>
