@@ -15,6 +15,7 @@ public class UserServlet extends BaseServlet{
     private ArtUserDao dao=new UserDaoImpl();
 
     protected void sign(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         String name = request.getParameter("name");
         String pwd = request.getParameter("pwd");
 
@@ -35,5 +36,42 @@ public class UserServlet extends BaseServlet{
         //关闭流
         out.flush();
         out.close();
+    }
+
+
+    protected void register(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String name = request.getParameter("name");
+        String email = request.getParameter("email");
+        String emialyzm = request.getParameter("emialyzm");
+        String pwd = request.getParameter("pwd");
+        String pwdAgin = request.getParameter("pwdAgin");
+        String bx = request.getParameter("cb");
+
+        //判断客户是否勾选了用户协议
+        if(name!=null&&!name.equals("")){
+            //这就代表用户填了 用户名text文本
+
+        }else {
+            //没有填写用户text
+
+        }
+
+
+        //进入dao层 通过用户名判断 是否已存在此用户
+        boolean flag=dao.sense(name);
+        response.setContentType("text/html; charset=UTF-8");
+        PrintWriter out = response.getWriter();
+        if(!flag){
+            //可以注册
+            out.write("yes");
+        }else {
+            //不可以注册
+            out.write("no");
+        }
+        System.out.println(flag);
+
+        out.flush();
+        out.close();
+
     }
 }

@@ -14,4 +14,11 @@ public class UserDaoImpl implements ArtUserDao {
         int row=jdbcTemplate.queryForObject(sql,Integer.class,name,pwd);
         return row>0;
     }
+
+    @Override
+    public boolean sense(String name) {
+        String sql="select count(*) from user where UserName=?";
+        int row=jdbcTemplate.queryForObject(sql,Integer.class,name);
+        return row>0;
+    }
 }

@@ -43,42 +43,73 @@
             <img src="${pageContext.request.contextPath}/img/yuanlogo.png" />
         </div>
         <div class="content clearfix">
+            <form id="frm">
             <ul>
                 <li>
                     <span class="fl"></span>
-                    <input type="text" name="" id="name" value="" placeholder="用户名/手机号码" class="fl shuru" />
+                    <input type="text" name="name"  value="" placeholder="用户名/手机号码" class="fl shuru" />
                 </li>
+<%--                <li class="yanzhengma">--%>
+<%--                    <span class="fl hudun"></span>--%>
+<%--                    <input type="text" name="" id="yzm" value="" placeholder="请输入验证码" class="fl shuru yzma" />--%>
+<%--                    <samp class="fr"><img src="${pageContext.request.contextPath}/img/yanzhengma.jpg" /></samp>--%>
+<%--                </li>--%>
                 <li class="yanzhengma">
                     <span class="fl hudun"></span>
-                    <input type="text" name="" id="yzm" value="" placeholder="请输入验证码" class="fl shuru yzma" />
-                    <samp class="fr"><img src="${pageContext.request.contextPath}/img/yanzhengma.jpg" /></samp>
-                </li>
-                <li class="yanzhengma">
-                    <span class="fl hudun"></span>
-                    <input type="text" name="" id="yzm2" value="" placeholder="请输入验证码" class="fl shuru yzma" />
+                    <input type="text" name="email"  placeholder="请输入邮箱" class="fl shuru yzma" />
                     <samp class="fr">获取验证码</samp>
                 </li>
-                <li>
-                    <span class="fl mima"></span>
-                    <input type="password" name="" id="pwd" value="" placeholder="密码" class="fl shuru" />
+                <li class="yanzhengma">
+                    <span class="fl hudun"></span>
+                    <input type="text" name="emialyzm" placeholder="请输入验证码" class="fl shuru yzma" />
+
                 </li>
                 <li>
                     <span class="fl mima"></span>
-                    <input type="password" name="" id="" value="" placeholder="请再次输入密码" class="fl shuru" />
+                    <input type="password" name="pwd"  placeholder="密码" class="fl shuru" />
+                </li>
+                <li>
+                    <span class="fl mima"></span>
+                    <input type="password" name="pwdAgin"  placeholder="请再次输入密码" class="fl shuru" />
                 </li>
                 <li class="jizhu">
                     <div class="radiothree fl">
                         <label>
-                            <input type="checkbox" name="" value="">
-                            <div class="option"></div>
+                            <input type="radio" name="cb" value="op" required>
+
                             <p class="opt-text fl ml20">我已阅读并同意<a href="zcxy.html">《XXX艺术用户注册协议》</a></p>
                         </label>
                     </div>
                 </li>
             </ul>
-            <a href="#" class="sign-btn zhuce-btn ra5">立即注册</a>
+            <a href="#" class="sign-btn zhuce-btn ra5" id="btn">立即注册</a>
+            </form>
         </div>
     </div>
+    <script>
+        $(function () {
+            $('#btn').click(function () {
+                $.ajax({
+                    url:"user?method=register",
+                    type:"post",
+                    data:$('#frm').serialize(),
+                    success:function (data) {
+                        if(data=='yes'){
+                            //做成功以后的业务
+                            alert("注册成功，谢谢")
+                        }else {
+                            //失败后要进行的操作
+                            alert("注册失败！")
+                        }
+                    },
+                    error:function (data) {
+
+                    }
+
+                })
+            })
+        })
+    </script>
     <div class="xia clearfix">
         <p>Copyright © 2020 XXX文化(chunlingwenhua). All Rights Reserved.</p>
     </div>
