@@ -2,7 +2,9 @@ package org.java.web;
 
 import org.java.dao.ArtUserDao;
 import org.java.dao.DaoImpl.UserDaoImpl;
+import org.java.util.MailUtils;
 
+import javax.mail.MessagingException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -47,6 +49,7 @@ public class UserServlet extends BaseServlet{
         String pwdAgin = request.getParameter("pwdAgin");
         String bx = request.getParameter("cb");
 
+
         //判断客户是否勾选了用户协议
         if(name!=null&&!name.equals("")){
             //这就代表用户填了 用户名text文本
@@ -70,6 +73,22 @@ public class UserServlet extends BaseServlet{
         }
         System.out.println(flag);
 
+        out.flush();
+        out.close();
+
+    }
+
+
+    protected void yzyx(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, MessagingException {
+        String yzm = request.getParameter("yzm");
+        String id="123212";
+
+        MailUtils.sendMail(yzm,id);
+
+        response.setContentType("text/html; charset=UTF-8");
+        PrintWriter out = response.getWriter();
+
+        out.write("no");
         out.flush();
         out.close();
 

@@ -6,8 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b86d5c1a-38a3-4dce-8870-16f5957d8fa5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/web/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.jsp" afterDir="false" />
+    <list default="true" id="956d5b4f-ac98-4678-a9be-cd2a11354ebb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +23,6 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="224WuxLgUUg48O86idMCxyBvgQy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -116,36 +113,18 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="956d5b4f-ac98-4678-a9be-cd2a11354ebb" name="Default Changelist" comment="" />
       <created>1639030561788</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639030561788</updated>
       <workItem from="1639030563291" duration="4088000" />
       <workItem from="1639097570365" duration="51000" />
-      <workItem from="1639111169103" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="12312">
       <created>1639030688664</created>
@@ -165,11 +144,21 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12312" />
     <MESSAGE value="给爷冲" />
     <option name="LAST_COMMIT_MESSAGE" value="给爷冲" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="256" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639097621227">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="256" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.952@0.0.1600.952" timestamp="1639097621227" />
+    <state x="302" y="121" key="SettingsEditor" timestamp="1639097558970">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="302" y="121" key="SettingsEditor/0.0.1600.952@0.0.1600.952" timestamp="1639097558970" />
   </component>
 </project>
