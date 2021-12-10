@@ -85,7 +85,7 @@
     </div>
     <div class="bottom clearfix">
         <div class="logo clearfix">
-            <a href="index.jsp"><img src="img/logo.png"></a>
+           <img src="${pageContext.request.contextPath}/img/logo1.jpg" style="position: absolute;bottom: 0px;height: 100%">
         </div>
         <div class="search clearfix fr ra5">
             <input type="text" class="fl" name="" id="" value="" placeholder="请输入您要搜索的内容" />
@@ -100,8 +100,8 @@
     <div class="content clearfix">
         <ul>
             <li class="cur"><a href="index.jsp" >首页</a></li>
-            <li><a href="special.jsp">专场</a></li>
-            <li><a href="mall.jsp">商城</a></li>
+            <li class="cur"><a href="special.jsp">专场</a></li>
+            <li class="cur"><a href="mall.jsp">商城</a></li>
             <li class="cur"><a href="artist.jsp" >艺术家</a></li>
         </ul>
     </div>

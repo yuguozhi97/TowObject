@@ -59,13 +59,13 @@
                     <span class="fl">分享到：</span>
                     <ul class="clearfix fl">
                         <li>
-                            <a href="#"><img src="img/sina.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/img/sina.png" /></a>
+                            <a href="#"><img src="${pageContext.request.contextPath}/img/sina.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/img/sina.png" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/qq.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/img/qq.png" /></a>
+                            <a href="#"><img src="${pageContext.request.contextPath}/img/qq.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/img/qq.png" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="img/wechat.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/img/wechat.png" /></a>
+                            <a href="#"><img src="${pageContext.request.contextPath}/img/wechat.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/img/wechat.png" /></a>
                         </li>
                     </ul>
                 </div>

@@ -100,7 +100,8 @@
                     type: 'post',
                     data:{'method':'yzyx','yzm':mail},
                     success:function (data) {
-                        alert("已发送")
+                        var va=data;
+                        console.log(va)
                     }
                 })
             })

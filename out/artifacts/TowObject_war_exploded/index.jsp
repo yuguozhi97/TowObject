@@ -34,7 +34,7 @@
 
 <body>
 <!--header star-->
-123123
+
 <div class="header clearfix">
     <div class="top clearfix">
         <div class="topctent clearfix">
@@ -85,7 +85,7 @@
     </div>
     <div class="bottom clearfix">
         <div class="logo clearfix">
-            <a href="index.jsp"><img src="img/logo.png"></a>
+           <img src="${pageContext.request.contextPath}/img/logo1.jpg" style="position: absolute;bottom: 0px;height: 100%">
         </div>
         <div class="search clearfix fr ra5">
             <input type="text" class="fl" name="" id="" value="" placeholder="请输入您要搜索的内容" />
@@ -100,8 +100,9 @@
     <div class="content clearfix">
         <ul>
             <li class="cur"><a href="index.jsp" >首页</a></li>
-            <li><a href="special.jsp">专场</a></li>
-            <li><a href="mall.jsp">商城</a></li>
+            <li class="cur"><a href="special.jsp">专场</a></li>
+            <li class="cur"><a href="mall.jsp">商城</a></li>
+            <li class="cur"><a href="artist.jsp" >艺术家</a></li>
         </ul>
     </div>
 </div>
@@ -144,7 +145,7 @@
                     <a href="#">
                         <!--备注：第一张图 宽度：418像素，高度：710像素-->
                         <div class="tu clearfix">
-                            <img src="img/1-1.png" />
+                            <img src="${pageContext.request.contextPath}/img/1-1.png" />
                             <span></span>
                         </div>
                         <div class="listxia clearfix ta-center">
@@ -285,7 +286,7 @@
                                 <li>
                                     <div class="list clearfix fl box-s transition">
                                         <div class="tu clearfix box-s">
-                                            <img src="img/people.jpg"/>
+                                            <img src="${pageContext.request.contextPath}/img/people.jpg"/>
                                             <span></span>
                                         </div>
                                         <div class="ctent clearfix box-s">
@@ -309,7 +310,7 @@
                                 <li>
                                     <div class="list clearfix fl box-s transition">
                                         <div class="tu clearfix box-s">
-                                            <img src="img/people.jpg"/>
+                                            <img src="${pageContext.request.contextPath}/img/people.jpg"/>
                                             <span></span>
                                         </div>
                                         <div class="ctent clearfix box-s">
@@ -333,7 +334,7 @@
                                 <li>
                                     <div class="list clearfix fl box-s transition">
                                         <div class="tu clearfix box-s">
-                                            <img src="img/people.jpg"/>
+                                            <img src="${pageContext.request.contextPath}/img/people.jpg"/>
                                             <span></span>
                                         </div>
                                         <div class="ctent clearfix box-s">
@@ -357,7 +358,7 @@
                                 <li>
                                     <div class="list clearfix fl box-s transition">
                                         <div class="tu clearfix box-s">
-                                            <img src="img/people.jpg"/>
+                                            <img src="${pageContext.request.contextPath}/img/people.jpg"/>
                                             <span></span>
                                         </div>
                                         <div class="ctent clearfix box-s">
@@ -425,8 +426,8 @@
                         </div>
                         <div class="xia clearfix">
                             <ul>
-                                <li><a href="scgmlc.html">商城购买流程</a></li>
-                                <li><a href="cjwt.html">常见问题</a></li>
+                                <li><a href="scgmlc.jsp">商城购买流程</a></li>
+                                <li><a href="cjwt.jsp">常见问题</a></li>
                             </ul>
                         </div>
                     </div>
@@ -437,9 +438,9 @@
                         </div>
                         <div class="xia clearfix">
                             <ul>
-                                <li><a href="zhcz.html">账户充值</a></li>
-                                <li><a href="zhtx.html">账户提现</a></li>
-                                <li><a href="zffs.html">支付方式</a></li>
+                                <li><a href="zhcz.jsp">账户充值</a></li>
+                                <li><a href="zhtx.jsp">账户提现</a></li>
+                                <li><a href="zffs.jsp">支付方式</a></li>
                             </ul>
                         </div>
                     </div>
@@ -450,8 +451,8 @@
                         </div>
                         <div class="xia clearfix">
                             <ul>
-                                <li><a href="friend-link.html">友情链接</a></li>
-                                <li><a href="ysjrz.html">艺术家入驻</a></li>
+                                <li><a href="friend-link.jsp">友情链接</a></li>
+                                <li><a href="ysjrz.jsp">艺术家入驻</a></li>
                             </ul>
                         </div>
                     </div>
@@ -462,9 +463,9 @@
                         </div>
                         <div class="xia clearfix">
                             <ul>
-                                <li><a href="gsjj.html">公司简介</a></li>
-                                <li><a href="contact.html">联系我们</a></li>
-                                <li><a href="jrwm.html">加入我们</a></li>
+                                <li><a href="gsjj.jsp">公司简介</a></li>
+                                <li><a href="contact.jsp">联系我们</a></li>
+                                <li><a href="jrwm.jsp">加入我们</a></li>
                             </ul>
                         </div>
                     </div>
@@ -475,16 +476,16 @@
                         </div>
                         <div class="xia clearfix">
                             <ul>
-                                <li><a href="wlsm.html">物流说明</a></li>
-                                <li><a href="mzsm.html">免责声明</a></li>
+                                <li><a href="wlsm.jsp">物流说明</a></li>
+                                <li><a href="mzsm.jsp">免责声明</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="middle clearfix fl">
                     <ul>
-                        <li><img src="img/ewm.jpg"/></li>
-                        <li><img src="img/ewm.jpg"/></li>
+                        <li><img src="${pageContext.request.contextPath}/img/ewm.jpg"/></li>
+                        <li><img src="${pageContext.request.contextPath}/img/ewm.jpg"/></li>
                     </ul>
                 </div>
                 <div class="right clearfix fr">

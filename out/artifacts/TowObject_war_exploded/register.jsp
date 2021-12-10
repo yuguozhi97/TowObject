@@ -33,7 +33,7 @@
         <a href="index.jsp" class="fl fanhui">返回首页</a>
         <p class="fr">
             已有商城账号？
-            <a href="sign.html">
+            <a href="sign.jsp">
                 登录
             </a>
         </p>
@@ -57,7 +57,7 @@
                 <li class="yanzhengma">
                     <span class="fl hudun"></span>
                     <input type="text" name="email"  placeholder="请输入邮箱" class="fl shuru yzma" />
-                    <samp class="fr">获取验证码</samp>
+                    <samp class="fr" id="hq">获取验证码</samp>
                 </li>
                 <li class="yanzhengma">
                     <span class="fl hudun"></span>
@@ -72,22 +72,40 @@
                     <span class="fl mima"></span>
                     <input type="password" name="pwdAgin"  placeholder="请再次输入密码" class="fl shuru" />
                 </li>
-                <li class="jizhu">
-                    <div class="radiothree fl">
-                        <label>
-                            <input type="radio" name="cb" value="op" required>
-
-                            <p class="opt-text fl ml20">我已阅读并同意<a href="zcxy.html">《XXX艺术用户注册协议》</a></p>
-                        </label>
-                    </div>
-                </li>
             </ul>
-            <a href="#" class="sign-btn zhuce-btn ra5" id="btn">立即注册</a>
+                <span><input type="checkbox" name="dir" value="-1" id="choce"></span><span>我已阅读并同意<a href="zcxy.html">《XXX艺术用户注册协议》</a></span>
+            <button class="sign-btn zhuce-btn ra5" id="btn" disabled="disabled" style="background-color: gray">立即注册</button>
             </form>
         </div>
     </div>
     <script>
         $(function () {
+            $('#choce').click(function () {
+                var flag=$('#choce').prop('checked');
+                if(flag){
+                    $('#btn').css("background-color","red");
+                    $('#btn').removeAttr("disabled");
+                }else {
+                    $('#btn').css("background-color","gray");
+                    $('#btn').prop('disabled','disabled');
+                }
+            })
+
+
+            $('#hq').click(function () {
+                var mail=$("[name='email']").val();
+                alert(mail);
+                $.ajax({
+                    url:"user",
+                    type: 'post',
+                    data:{'method':'yzyx','yzm':mail},
+                    success:function (data) {
+                        alert("已发送")
+                    }
+                })
+            })
+
+
             $('#btn').click(function () {
                 $.ajax({
                     url:"user?method=register",

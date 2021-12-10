@@ -41,23 +41,23 @@
                     <ul class="clearfix fl">
                         <li>
                             <span class="fl">欢迎</span>
-                            <a href="grxx.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/grxx.html" class="fl">瑾晨0212</a>
+                            <a href="grxx.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/grxx.html" class="fl">瑾晨0212</a>
                             <span class="fl">进入商城</span>
                         </li>
                         <li>
-                            <a href="register.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/register.html">
+                            <a href="register.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/register.html">
                                 免费注册
                             </a>
                         </li>
                         <li>
-                            <a href="settled.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/settled.html">
+                            <a href="settled.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/settled.html">
                                 艺术家入驻
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="shopcar-btn clearfix fl">
-                    <a href="shopping.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/shopping.html" class="box-s">
+                    <a href="shopping.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/shopping.html" class="box-s">
                         购物车（0）
                     </a>
                 </div>
@@ -80,7 +80,7 @@
     </div>
     <div class="bottom clearfix">
         <div class="logo clearfix">
-            <a href="index.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/index.html"></a>
+            <img src="${pageContext.request.contextPath}/img/logo1.jpg" style="position: absolute;bottom: 0px;height: 100%">
         </div>
         <div class="search clearfix fr ra5">
             <input type="text" class="fl" name="" id="" value="" placeholder="请输入您要搜索的内容" />
@@ -95,16 +95,16 @@
     <div class="content clearfix">
         <ul>
             <li>
-                <a href="index.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/index.html">首页</a>
+                <a href="index.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/index.html">首页</a>
             </li>
             <li class="cur">
-                <a href="special.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/special.html">专场</a>
+                <a href="special.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/special.html">专场</a>
             </li>
             <li>
-                <a href="mall.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/mall.html">商城</a>
+                <a href="mall.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/mall.html">商城</a>
             </li>
             <li>
-                <a href="artist.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/artist.html">艺术家</a>
+                <a href="artist.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/artist.html">艺术家</a>
             </li>
         </ul>
     </div>
@@ -156,38 +156,91 @@
                 <div class="zuopin clearfix">
                     <ul>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1-4.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-4.png"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/14.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/14.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1-2.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-2.png"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/4.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/4.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <a href="special_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/special_detail.html" class="jinru ra3 transition">
+                <a href="special_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/special_detail.html" class="jinru ra3 transition">
+                    进入专场>
+                </a>
+            </div>
+        </div>
+        <div class="list clearfix fl box-s transition">
+            <div class="tu clearfix fl">
+                <img src="${pageContext.request.contextPath}/img/4.jpg" />
+                <span></span>
+            </div>
+            <div class="right clearfix fr box-s">
+                <div class="bt clearfix">
+                    方框梅兰竹菊系列专场
+                </div>
+                <div class="ctent clearfix mt20 over3">
+                    方框梅兰竹菊系列专场方框梅兰竹菊系列专场方框梅兰竹菊系列专场方框
+                    梅兰竹菊系列专场方框梅兰竹菊系列专场方框梅兰竹菊系列专场方框梅兰
+                    竹菊系列专场......
+                </div>
+                <div class="zuopin clearfix">
+                    <ul>
+                        <li>
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                                <img src="${pageContext.request.contextPath}/img/1-4.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-4.png"/>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                                <img src="${pageContext.request.contextPath}/img/1.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1.jpg"/>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                                <img src="${pageContext.request.contextPath}/img/14.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/14.jpg"/>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                                <img src="${pageContext.request.contextPath}/img/1-2.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-2.png"/>
+                                <span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                                <img src="${pageContext.request.contextPath}/img/4.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/4.jpg"/>
+                                <span></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="special_detail.jsp" class="jinru ra3 transition">
                     进入专场>
                 </a>
             </div>
@@ -209,38 +262,38 @@
                 <div class="zuopin clearfix">
                     <ul>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1-4.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-4.png"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/14.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/14.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1-2.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-2.png"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/4.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/4.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <a href="special_detail.html" class="jinru ra3 transition">
+                <a href="special_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/special_detail.html" class="jinru ra3 transition">
                     进入专场>
                 </a>
             </div>
@@ -262,38 +315,38 @@
                 <div class="zuopin clearfix">
                     <ul>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1-4.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-4.png"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/14.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/14.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1-2.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-2.png"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/4.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/4.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <a href="special_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/special_detail.html" class="jinru ra3 transition">
+                <a href="special_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/special_detail.html" class="jinru ra3 transition">
                     进入专场>
                 </a>
             </div>
@@ -315,91 +368,38 @@
                 <div class="zuopin clearfix">
                     <ul>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1-4.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-4.png"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/14.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/14.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/1-2.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-2.png"/>
                                 <span></span>
                             </a>
                         </li>
                         <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
+                            <a href="pro_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
                                 <img src="${pageContext.request.contextPath}/img/4.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/4.jpg"/>
                                 <span></span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <a href="special_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/special_detail.html" class="jinru ra3 transition">
-                    进入专场>
-                </a>
-            </div>
-        </div>
-        <div class="list clearfix fl box-s transition">
-            <div class="tu clearfix fl">
-                <img src="${pageContext.request.contextPath}/img/4.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/4.jpg"/>
-                <span></span>
-            </div>
-            <div class="right clearfix fr box-s">
-                <div class="bt clearfix">
-                    方框梅兰竹菊系列专场
-                </div>
-                <div class="ctent clearfix mt20 over3">
-                    方框梅兰竹菊系列专场方框梅兰竹菊系列专场方框梅兰竹菊系列专场方框
-                    梅兰竹菊系列专场方框梅兰竹菊系列专场方框梅兰竹菊系列专场方框梅兰
-                    竹菊系列专场......
-                </div>
-                <div class="zuopin clearfix">
-                    <ul>
-                        <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
-                                <img src="${pageContext.request.contextPath}/img/1-4.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-4.png"/>
-                                <span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
-                                <img src="${pageContext.request.contextPath}/img/1.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1.jpg"/>
-                                <span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
-                                <img src="${pageContext.request.contextPath}/img/14.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/14.jpg"/>
-                                <span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
-                                <img src="${pageContext.request.contextPath}/img/1-2.png" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/1-2.png"/>
-                                <span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="pro_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/pro_detail.html">
-                                <img src="${pageContext.request.contextPath}/img/4.jpg" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/upload/4.jpg"/>
-                                <span></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <a href="special_detail.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/special_detail.html" class="jinru ra3 transition">
+                <a href="special_detail.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/special_detail.html" class="jinru ra3 transition">
                     进入专场>
                 </a>
             </div>
@@ -454,8 +454,8 @@
                     </div>
                     <div class="xia clearfix">
                         <ul>
-                            <li><a href="scgmlc.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/scgmlc.html">商城购买流程</a></li>
-                            <li><a href="cjwt.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/cjwt.html">常见问题</a></li>
+                            <li><a href="scgmlc.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/scgmlc.html">商城购买流程</a></li>
+                            <li><a href="cjwt.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/cjwt.html">常见问题</a></li>
                         </ul>
                     </div>
                 </div>
@@ -466,9 +466,9 @@
                     </div>
                     <div class="xia clearfix">
                         <ul>
-                            <li><a href="zhcz.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/zhcz.html">账户充值</a></li>
-                            <li><a href="zhtx.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/zhtx.html">账户提现</a></li>
-                            <li><a href="zffs.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/zffs.html">支付方式</a></li>
+                            <li><a href="zhcz.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/zhcz.html">账户充值</a></li>
+                            <li><a href="zhtx.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/zhtx.html">账户提现</a></li>
+                            <li><a href="zffs.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/zffs.html">支付方式</a></li>
                         </ul>
                     </div>
                 </div>
@@ -479,7 +479,7 @@
                     </div>
                     <div class="xia clearfix">
                         <ul>
-                            <li><a href="friend-link.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/friend-link.html">友情链接</a></li>
+                            <li><a href="friend-link.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/friend-link.html">友情链接</a></li>
                             <li><a href="ysjrz.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/ysjrz.html">艺术家入驻</a></li>
                         </ul>
                     </div>
@@ -491,9 +491,9 @@
                     </div>
                     <div class="xia clearfix">
                         <ul>
-                            <li><a href="gsjj.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/gsjj.html">公司简介</a></li>
-                            <li><a href="contact.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/contact.html">联系我们</a></li>
-                            <li><a href="jrwm.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/jrwm.html">加入我们</a></li>
+                            <li><a href="gsjj.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/gsjj.html">公司简介</a></li>
+                            <li><a href="contact.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/contact.html">联系我们</a></li>
+                            <li><a href="jrwm.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/jrwm.html">加入我们</a></li>
                         </ul>
                     </div>
                 </div>
@@ -504,8 +504,8 @@
                     </div>
                     <div class="xia clearfix">
                         <ul>
-                            <li><a href="wlsm.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/wlsm.html">物流说明</a></li>
-                            <li><a href="mzsm.html" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/mzsm.html">免责声明</a></li>
+                            <li><a href="wlsm.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/wlsm.html">物流说明</a></li>
+                            <li><a href="mzsm.jsp" tppabs="http://demo.mxyhn.xyz:8020/cssthemes6/1.27ZF11/mzsm.html">免责声明</a></li>
                         </ul>
                     </div>
                 </div>

@@ -80,15 +80,21 @@ public class UserServlet extends BaseServlet{
 
 
     protected void yzyx(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, MessagingException {
+        //获取邮箱
         String yzm = request.getParameter("yzm");
-        String id="123212";
+        //生成随机的验证码
+        int code =(int)((Math.random()*9+1)*100000);
+        String codee = String.valueOf(code);
+        //存之session等下判断是否填写正确
+        request.getSession().setAttribute("code",codee);
 
-        MailUtils.sendMail(yzm,id);
+        //用右键模板 发送邮件
+        MailUtils.sendMail(yzm,codee);
 
         response.setContentType("text/html; charset=UTF-8");
         PrintWriter out = response.getWriter();
 
-        out.write("no");
+        out.write("yes");
         out.flush();
         out.close();
 
