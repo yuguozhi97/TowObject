@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/base.css"/>
     <script src="${pageContext.request.contextPath}/js/jquery-1.8.3.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.SuperSlide.2.1.js" ></script>
+
 </head>
 <body class="sign-bg">
 <div class="sign clearfix">
@@ -42,12 +43,12 @@
         <div class="sign-logo clearfix">
             <img src="${pageContext.request.contextPath}/img/yuanlogo.png" />
         </div>
-        <div class="content clearfix">
+        <div class="content clearfix" id="app">
             <form id="frm">
             <ul>
                 <li>
                     <span class="fl"></span>
-                    <input type="text" name="name"  value="" placeholder="用户名/手机号码" class="fl shuru" />
+                    <input type="text" name="name" placeholder="用户名/手机号码" class="fl shuru" v-focus/>
                 </li>
 <%--                <li class="yanzhengma">--%>
 <%--                    <span class="fl hudun"></span>--%>
@@ -56,30 +57,32 @@
 <%--                </li>--%>
                 <li class="yanzhengma">
                     <span class="fl hudun"></span>
-                    <input type="text" name="email"  placeholder="请输入邮箱" class="fl shuru yzma" />
-                    <samp class="fr" id="hq">获取验证码</samp>
+                    <input type="text" name="email"  placeholder="请输入邮箱" class="fl shuru yzma" required/>
+                    <samp class="fr" id="hq" style="background-color: #00FF00;border-radius: 12px">获取验证码</samp>
                 </li>
                 <li class="yanzhengma">
                     <span class="fl hudun"></span>
-                    <input type="text" name="emialyzm" placeholder="请输入验证码" class="fl shuru yzma" />
+                    <input type="text" name="emialyzm" placeholder="请输入验证码" class="fl shuru yzma" required/>
 
                 </li>
                 <li>
                     <span class="fl mima"></span>
-                    <input type="password" name="pwd"  placeholder="密码" class="fl shuru" />
+                    <input type="password" name="pwd"  placeholder="密码" class="fl shuru" required/>
                 </li>
                 <li>
                     <span class="fl mima"></span>
-                    <input type="password" name="pwdAgin"  placeholder="请再次输入密码" class="fl shuru" />
+                    <input type="password" name="pwdAgin"  placeholder="请再次输入密码" class="fl shuru" required/>
                 </li>
             </ul>
                 <span><input type="checkbox" name="dir" value="-1" id="choce"></span><span>我已阅读并同意<a href="zcxy.html">《XXX艺术用户注册协议》</a></span>
-            <button class="sign-btn zhuce-btn ra5" id="btn" disabled="disabled" style="background-color: gray">立即注册</button>
+                <button class="sign-btn zhuce-btn ra5" id="btn" disabled="disabled" style="background-color: gray;color: white" >注册</button>
             </form>
         </div>
     </div>
     <script>
         $(function () {
+
+            // 阅读---注册按钮事件
             $('#choce').click(function () {
                 var flag=$('#choce').prop('checked');
                 if(flag){
@@ -91,8 +94,10 @@
                 }
             })
 
-
+            //邮箱验证异步请求
             $('#hq').click(function () {
+                $(this).css("background","gray");
+
                 var mail=$("[name='email']").val();
                 alert(mail);
                 $.ajax({
@@ -100,37 +105,69 @@
                     type: 'post',
                     data:{'method':'yzyx','yzm':mail},
                     success:function (data) {
-                        alert("已发送")
+                        var va=data;
+                        console.log(va)
                     }
                 })
             })
 
-
+            //注册事件
             $('#btn').click(function () {
+                alert(11);
                 $.ajax({
                     url:"user?method=register",
                     type:"post",
                     data:$('#frm').serialize(),
                     success:function (data) {
-                        if(data=='yes'){
-                            //做成功以后的业务
-                            alert("注册成功，谢谢")
-                        }else {
-                            //失败后要进行的操作
-                            alert("注册失败！")
-                        }
-                    },
-                    error:function (data) {
 
                     }
 
+                });
+            })
+
+            //name失去焦点，后的ajax请求查看是否重名
+            $("[name='name']").blur(function () {
+                $.post("user",{"method":"judegName","name":$(this).val()},function (data) {
+                    if(data=='不行'){
+                        alert("用户名已被注册！")
+                    }
+                })
+            })
+
+            //邮箱数去焦点后，判断格式和控制
+            $("[name='email']").blur(function () {
+                $.post("user",{"method":"judegMail","mail":$(this).val()},function (data) {
+                    if(data=='不能为空'||data=='错误格式'){
+                        alert("邮箱格式填写错误")
+                    }
                 })
             })
         })
+        // ---------------------------------------------------------------------------
+        var wait=60;
+        function time(o) {
+            if (wait == 0) {
+                o.removeAttribute("disabled");
+                o.value="免费获取验证码";
+                wait = 60;
+            } else {
+
+                o.setAttribute("disabled", true);
+                o.value="重新发送(" + wait + ")";
+                wait--;
+                setTimeout(function() {
+                        time(o)
+                    },
+                    1000)
+            }
+        }
+        document.getElementById("hq").onclick=function(){time(this);}
     </script>
+
     <div class="xia clearfix">
         <p>Copyright © 2020 XXX文化(chunlingwenhua). All Rights Reserved.</p>
     </div>
 </div>
+
 </body>
 </html>
